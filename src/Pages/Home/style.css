@@ -1,0 +1,171 @@
+#containerPaginaHome {
+    border: 1px solid blue;
+
+    width: 100%;
+    height: 100vh;
+}
+
+#boxHeaderPaginaHome {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 13%;
+
+    align-items: center;
+}
+
+#boxImagemHeaderPaginaHome {
+    border: 1px solid blue;
+    display: flex;
+
+    width: 10%;
+    height: 70%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#textoStylePaginaHome {
+    font-size: 19px;
+
+    text-align: center;
+}
+
+#boxTituloHeaderPaginaHome {
+    border: 1px solid pink;
+    display: flex;
+
+    width: 100%;
+    height: 30%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#boxTimesPaginaHome {
+    border: 1px solid green;
+    display: flex;
+
+    width: 100%;
+    height: 87%;
+}
+
+#boxTimeEsquerdoPaginaHome {
+    border: 1px solid aqua;
+
+    width: 50%;
+    height: 100%;
+
+    transition: 500ms;
+}
+
+#boxTimeEsquerdoPequenoPaginaHome {
+    border: 1px solid aqua;
+
+    width: 35%;
+    height: 100%;
+
+    transition: 500ms;
+}
+
+#boxTimeEsquerdoGrandePaginaHome {
+    border: 1px solid aqua;
+
+    width: 65%;
+    height: 100%;
+
+    transition: 500ms;
+}
+
+#boxTimeDireitoPaginaHome {
+    border: 1px solid royalblue;
+
+    width: 50%;
+    height: 100%;
+
+    transition: 500ms;
+}
+
+#boxTimeDireitoPequenoPaginaHome {
+    border: 1px solid royalblue;
+
+    width: 35%;
+    height: 100%;
+
+    transition: 500ms;
+}
+
+#boxtimeDireitoGrandePaginaHome {
+    border: 1px solid royalblue;
+
+    width: 65%;
+    height: 100%;
+
+    transition: 500ms;
+}
+
+.boxParteCimaTimePaginaHome {
+    border: 1px solid yellow;
+    display: flex;
+
+    width: 100%;
+    height: 60%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.boxParteBaixoPaginaHome {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 40%;
+
+    padding: 25px;
+
+    align-items: center;
+}
+
+.botaoVotarPaginaHome {
+    background-color: transparent;
+
+    width: 20em;
+    height: 4em;
+
+    border: 1px solid black;
+    border-radius: 25px;
+
+    transition: 200ms;
+}
+
+.botaoVotarPaginaHome:hover {
+    background-color: black;
+    color: white;
+
+    cursor: pointer;
+}
+
+.nomeTimeStylePaginaHome {
+    font-size: 21px;
+
+    margin-top: 3em;
+}
+
+#boxEsquerdaFormularioPaginaConfirmacao {
+    border: 1px solid black;
+    display: flex;
+
+    width: 50%;
+    height: 100%;
+}
+
+#boxDireitaFormularioPaginaConfirmacao {
+    border: 1px solid black;
+
+    width: 50%;
+    height: 100%;
+}
