@@ -1,0 +1,54 @@
+#containerPaginaObrigadoPorVotar {
+    background-color: greenyellow;
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#boxMenorPaginaObrigadoPorVotar {
+    width: 50em;
+    height: 50em;
+}
+
+#boxIconeCheckPaginaObrigadoPorVotar {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 40%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#textoStylePaginaObrigadoPorVotar {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+#boxContadorPaginaObirgadoPorVotar {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 60%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#contadorStylePaginaObrigadoPorVotar {
+    font-size: 40px;
+}
+
+#subTextoStylePaginaObrigadoPorVotar {
+    font-size: 21px;
+
+    margin-top: 2.5em;
+}
+
+
