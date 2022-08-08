@@ -102,12 +102,6 @@ export const Confirmacao = (props) => {
                             <>
                                 <button id='botaoStylePaginaConfirmacao' onClick={() => recuperarDados()}>Buscar</button>
                             </>}
-                            {isError ? 
-                            <div id='errorMensagemPaginaConfirmacao'>
-                                <BsX size={16} color={'red'}/><p>{errorMessage}</p>
-                            </div> :
-                            <>
-                            </>}
                         </div>
                     </div>
                     <div id='boxDireitaFormularioPaginaConfirmacao'>
@@ -127,6 +121,12 @@ export const Confirmacao = (props) => {
                                 </tr>
                             </tbody>
                         </table>
+                        {isError ? 
+                            <div id='errorMensagemPaginaConfirmacao'>
+                                <BsX size={16} color={'red'}/><p>{errorMessage}</p>
+                            </div> :
+                            <>
+                            </>}
                         {isDadosAchados ? 
                         <div id='boxCheckboxPaginaConfirmação'>
                             <input type="checkbox" name="vehicle1" checked={isCheck} onChange={handleCheck}></input>

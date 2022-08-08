@@ -29,6 +29,7 @@
 #tituloStylePaginaConfirmacao {
     font-size: 29px;
     font-weight: 700;
+    text-align: center;
 }
 
 #boxFormularioPaginaConfirmacao {
@@ -44,6 +45,8 @@
 
     width: 50%;
     height: 100%;
+
+    padding: 15px;
 
     justify-content: center;
     align-items: center;
@@ -71,7 +74,9 @@
     display: flex;
 
     width: 100%;
-    height: 20%;
+    height: fit-content;
+
+    margin-top: 1em;
 
     justify-content: center;
     align-items: center;
@@ -210,31 +215,73 @@ th, td {
 
 @keyframes lds-ripple2 {
     0% {
-      top: 36px;
-      left: 36px;
-      width: 0;
-      height: 0;
-      opacity: 0;
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 0;
     }
     4.9% {
-      top: 36px;
-      left: 36px;
-      width: 0;
-      height: 0;
-      opacity: 0;
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 0;
     }
     5% {
-      top: 36px;
-      left: 36px;
-      width: 0;
-      height: 0;
-      opacity: 1;
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
     }
     100% {
-      top: 0px;
-      left: 0px;
-      width: 72px;
-      height: 72px;
-      opacity: 0;
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
     }
-  }
+}
+
+@media screen and (max-width: 1366px){
+    #botaoStylePaginaConfirmacao {
+        margin-top: 1em;
+
+        height: 2em;
+    }
+
+    #boxFormularioBotaoPaginaConfirmacao {
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #botaoStylePaginaConfirmacao {
+        height: 1.9em;
+
+        font-size: 11px;
+    }
+
+    #inputStylePaginaConfirmacao {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    #boxFormularioPaginaConfirmacao {
+        flex-direction: column;
+    }
+
+    #boxFormularioPaginaConfirmacao #boxEsquerdaFormularioPaginaConfirmacao {
+        width: 100%;
+
+        border: 0;
+    }
+
+    #boxFormularioPaginaConfirmacao #boxDireitaFormularioPaginaConfirmacao {
+        width: 100%;
+
+        border: 0;
+    }
+}

@@ -169,3 +169,18 @@
     width: 50%;
     height: 100%;
 }
+
+@media screen and (max-width: 1366px){
+    #boxHeaderPaginaHome {
+        height: 20%;
+    }
+
+    #boxTimesPaginaHome {
+        height: 80%;
+    }
+
+    .botaoVotarPaginaHome {
+        width: 14em;
+        height: 3em;
+    }
+}

@@ -144,3 +144,14 @@
       opacity: 0;
     }
   }
+
+@media screen and (max-width: 1366px) {
+  #containerMenorModal {
+    width: 25em;
+    height: 25em;
+  }
+
+  #textoStyleModal {
+    font-size: 19px;
+  }
+}
